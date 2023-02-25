@@ -52,7 +52,7 @@ body{
     transform: skewY(360deg);
     transform-origin: 100%;
     background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
-    margin-top: -12%;
+    margin-top: -18%;
     margin-left: -21%;
     z-index: -1;
 }
@@ -64,7 +64,7 @@ body{
     transform: skewY(360deg);
     transform-origin: 100%;
     background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
-    margin-top: -1.2%;
+    margin-top: -9%;
     margin-left: -18%;
     z-index: -1;
 }
@@ -76,7 +76,7 @@ body{
     transform: skewY(360deg);
     transform-origin: 100%;
     background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
-    margin-top: -24%;
+    margin-top: -28%;
     margin-left: -25%;
     z-index: -1;
 }
@@ -84,7 +84,7 @@ body{
 #nav{
     display: flex;
     justify-content: space-between;
-    margin: 3%;
+    padding: 3%;
     align-items: center;
     position: relative;
 }
@@ -156,10 +156,11 @@ li a:hover{
 /* second div main */
 
 .seconddiv{
-    margin-top: 20%;
+    margin-top: 3%;
 }
 #coll{
-    margin: 4%;
+    margin-left: 4%;
+    margin-top: 1%;
     color: #05532e;
     font-weight: 700;
     margin-bottom: 6%;
@@ -203,17 +204,29 @@ li a:hover{
 
 
 /* thirddiv */
+
 .third{
-    margin: 3%;
+    background:rgba(0,0,0,0.74)url("Images/gif1.gif");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -14;
+    height: 100%;
+    overflow-y: hidden;
+  }
+  
+.third{
+    /* margin: 3%; */
+    padding: 3%;
 }
 #footh3{
     margin: 2%;
-    color: #05542e;
+    color: #3dc282;
     font-weight: 700;
     margin-bottom: 6%;
 }
 #footh3:hover{
-    color: #0b7140;
+    color: #087b43;
     transition: color ease-in-out 500ms;
     cursor: pointer;
 }
@@ -225,6 +238,7 @@ li a:hover{
 .flex-item1{
     flex: 1 1 20%;
     justify-content: space-between;
+    color: #ffffff;
 }
 .footh4{
     font-size: 24px;
@@ -236,44 +250,22 @@ li a:hover{
     font-size: 26px;
     font-weight: 700;
 }
-.cur, .Ii{
+.Cur, .Ii{
     font-size: 23px;
-    font-weight: 500;
+    font-weight: 400;
+    
 }
 .quo{
     font-size: 26px;
     font-weight: 700;
+    color: #ffffff;
 }
 .item11{
     text-align: center;
     align-self: center;
 }
-
-.background6{
-    position: absolute;
-    width: 15%;
-    height: 30%;
-    border-radius: 60%;
-    transform: skewY(360deg);
-    transform-origin: 100%;
-    background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
-    margin-top: -20%;
-    margin-left: -7%;
-    z-index: -1;
-    margin-bottom: -3%
-}
-.background7{
-    position: absolute;
-    width: 15%;
-    height: 30%;
-    border-radius: 60%;
-    transform: skewY(360deg);
-    transform-origin: 100%;
-    background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
-    margin-top: -10%;
-    margin-left: -11%;
-    z-index: -1;
-    margin-bottom: -3%
+.quoo{
+    color: #3dc282;
 }
 .instalogo{
     width: 11%;
