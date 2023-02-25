@@ -1,0 +1,296 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: "Oswald", Sans-serif;
+}
+                /* first div main */
+
+
+.background{
+    position: absolute;
+    width: 15%;
+    height: 24%;
+    transform: skewY(360deg);
+    border-radius: 60%;
+    transform-origin: 100%;
+    background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
+    margin: -7% 44%;
+    border-color: #0d1117;
+    z-index: -1;
+}
+.background1{
+    position: absolute;
+    width: 15%;
+    height: 24%;
+    transform: skewY(360deg);
+    border-radius: 60%;
+    transform-origin: 100%;
+    background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
+    margin: -9% 30%;
+    border-color: #0d1117;
+    z-index: -1;
+}
+.background2{
+    position: absolute;
+    width: 15%;
+    height: 24%;
+    transform: skewY(360deg);
+    border-radius: 60%;
+    transform-origin: 100%;
+    background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
+    margin: -9% 58%;
+    border-color: #0d1117;
+    z-index: -1;
+}
+.background3{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    border-radius: 60%;
+    transform: skewY(360deg);
+    transform-origin: 100%;
+    background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
+    margin-top: -12%;
+    margin-left: -21%;
+    z-index: -1;
+}
+.background4{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    border-radius: 60%;
+    transform: skewY(360deg);
+    transform-origin: 100%;
+    background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
+    margin-top: -1.2%;
+    margin-left: -18%;
+    z-index: -1;
+}
+.background5{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    border-radius: 60%;
+    transform: skewY(360deg);
+    transform-origin: 100%;
+    background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
+    margin-top: -24%;
+    margin-left: -25%;
+    z-index: -1;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    width: 10%;
+    margin-left: 5%;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    display: inline;
+    list-style: none;
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin: 11px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(15, 88, 0);
+}
+li a:hover{
+    color: rgb(82, 168, 104);
+    transition: color ease-in 400ms;
+}
+.content{
+    color: rgb(7, 7, 7);
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 6rem;
+    margin-bottom: 13%;
+    text-align: center;
+    font-size: 25px;
+}
+.maintext{
+    font-size: 35px;
+    line-height: 58px;
+    color: rgb(0, 0, 0);
+    font-family: "Oswald", Sans-serif;
+    letter-spacing: 0.7px;
+    height: 250px;
+}
+.sen1{
+    font-weight: 900;
+    
+}
+.sen2{
+    font-weight: 570;
+    font-size: 26px;
+}
+.sen3{
+    font-weight: 100;
+    font-size: 23px;
+}
+.n, .a, .t, .u, .r, .e{
+    color: rgb(0, 79, 33);
+    font-weight: 900;
+    font-family: 'Rubik Microbe', cursive;
+}
+.v, .i, .ee, .w, .tw{
+    color: rgb(10, 93, 39);
+    font-weight: 900;
+    font-family: 'Rubik Microbe', cursive;
+}
+
+
+/* second div main */
+
+.seconddiv{
+    margin-top: 20%;
+}
+#coll{
+    margin: 4%;
+    color: #05532e;
+    font-weight: 700;
+    margin-bottom: 6%;
+}
+#coll:hover{
+    color: #0b7140;
+    transition: color ease-in-out 500ms;
+    cursor: pointer;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3%;
+    
+    gap: 1.5%;
+    
+}
+
+.flex-item {
+    flex: 1 1 21%;
+    margin-bottom: 20px;
+    margin-top: -2%;
+    box-shadow: -10px 0 10px -10px rgba(0, 0, 0, 0.5), 10px 0 10px -10px rgba(0, 0, 0, 0.5);
+    
+}
+  
+.flex-item img {
+    width: 100%;
+    /* height: auto; */
+}
+.imgg{
+    height: 90%;
+}
+.imgg:hover{
+    height: 92%;
+    width: 103%;
+    transition: height ease-in-out 300ms;
+}
+
+
+/* thirddiv */
+.third{
+    margin: 3%;
+}
+#footh3{
+    margin: 2%;
+    color: #05542e;
+    font-weight: 700;
+    margin-bottom: 6%;
+}
+#footh3:hover{
+    color: #0b7140;
+    transition: color ease-in-out 500ms;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.flex-item1{
+    flex: 1 1 20%;
+    justify-content: space-between;
+}
+.footh4{
+    font-size: 24px;
+    margin: 4%;
+    line-height: 44px;
+    letter-spacing: 1px;
+}
+.B{
+    font-size: 26px;
+    font-weight: 700;
+}
+.cur, .Ii{
+    font-size: 23px;
+    font-weight: 500;
+}
+.quo{
+    font-size: 26px;
+    font-weight: 700;
+}
+.item11{
+    text-align: center;
+    align-self: center;
+}
+
+.background6{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    border-radius: 60%;
+    transform: skewY(360deg);
+    transform-origin: 100%;
+    background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
+    margin-top: -20%;
+    margin-left: -7%;
+    z-index: -1;
+    margin-bottom: -3%
+}
+.background7{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    border-radius: 60%;
+    transform: skewY(360deg);
+    transform-origin: 100%;
+    background: linear-gradient(1deg,#097d5e 15%,#0b7140  10%,#097d5e  14%);
+    margin-top: -10%;
+    margin-left: -11%;
+    z-index: -1;
+    margin-bottom: -3%
+}
+.instalogo{
+    width: 11%;
+    height: 11%;
+}
+.instalogo:hover{
+    width: 11.5%;
+    height: 11.5%;
+}
+.logo1{
+    width: 9%;
+    height: 9%;
+}
+.logo1:hover{
+    width: 9.5%;
+    height: 9.5%;
+}
+
+
+  
